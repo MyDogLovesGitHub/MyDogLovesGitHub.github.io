@@ -1,0 +1,28 @@
+var Level1Layout = {
+    "blocks": [
+        {"x": 300, "y": 0},
+        {"x": 330, "y": 0},
+    ],
+    "spikes": [
+        {"x": 360, "y": 0},
+    ],
+}
+
+/*
+var LevelLayoutExample = {
+    "blocks": [
+        {"x": 300, "y": 0},
+        {"x": 500, "y": 0},
+    ],
+    "spikes": [],
+}
+
+Template:
+var Level#Layout = {
+    "blocks": [
+    ],
+    "spikes": [
+    ],
+}
+{"x": , "y": }
+*/

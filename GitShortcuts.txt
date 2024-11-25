@@ -1,0 +1,62 @@
+Tutorial: https://www.w3schools.com/git/
+
+To clone a private repo:
+git clone https://username@github.com/username/reponame.git
+
+Add github repo:
+git remote add origin <github url>
+
+git add --all
+Adds all new files you made to git in order to be commited (see below)
+
+git commit -a -m "Commit message"
+This commits changes (saves changes to git (not github, to do that see git push))
+-a automatically stages files (honestly idk what this does but if it's not broke don't fix it)
+-m lets you add the commit message
+
+git push
+Pushes local code to github
+(if you are on a branch that isn't in github it will save that branch to github)
+
+git push origin <branch-name>
+Pushes code on your machine to the specified branch in github
+
+git branch
+Shows branches
+
+git switch <branch-name>
+Switches to a different branch
+
+git checkout <branch-name>
+Switches to a different branch
+
+git switch -c <new-branch-name>
+Creates a new branch with the specified name and switches to it
+
+git branch -d <branch-name>
+Deletes the branch from local machine (use -D if there are unsaved changes)
+
+git push origin --delete <branch-to-delete>
+Deletes the branch from github
+
+git merge <branch-name>
+Loads code from branch into your local code
+
+git fetch origin <branch-name>
+Fetches the latest changes from github and displays them for you to check
+
+git log origin/<branch-name>
+
+git pull
+Incorporates changes from the current branch that aren't in your local code (if local code is behind github code then update code on this machine)
+
+git pull origin <branch-name>
+Incorporates changes from the branch that aren't in your local code (if local code is behind github code then update code on this machine)
+
+git checkout <branch-name>
+Switches to a different branch in the repository
+
+git checkout -b <new-branch-name>
+Creates a new branch with the specified name and switches to it
+
+
